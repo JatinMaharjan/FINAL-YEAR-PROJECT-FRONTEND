@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Upcoming Competation</title>
+
+  </head>
+  <body
+    style="
+      background-image: url('image/arena.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    "
+  >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <div class="nav-header d-flex">
+          <a class="navbar-brand" href="main.html">
+            <img src="image/1.png" alt="" width="180" height="80" />
+          </a>
+          <p class="text-light mt-3 fw-bold fs-5" style="line-height: 70px">
+            ChuniDevi Taekwondo Association
+          </p>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mx-5 px-5" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2">
+              <a href="main.html" class="nav-link fs-5">Home</a>
+            </li>
+
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Competation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="upcomingcompetation.html">Upcoming Competation</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ranking.html">Ranking</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item px-2">
+              <a href="trainingtime.html" class="nav-link fs-5"
+                >Training Time</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a href="aboutus.html" class="nav-link fs-5">About Us</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="contactus.html" class="nav-link fs-5">Contact Us</a>
+            </li>
+            <button type="button" class="btn btn-outline-warning mx-3">
+              Log Out
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container upcomingcompetationBOX text-center">
+      <div class="">
+        <h3>Upcoming Tournament</h3>
+      </div>
+      <div class="text-secondary">
+        <h4>ChuniDevi Taekwondo Championship</h4>
+      </div>
+      <div class="text-secondary mb-5">
+        <h5>These are the Upcoming Tournaments which are going to take place
+            soon
+        </h5>
+      </div>
+
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"><h5>S.No</h5></th>
+            <th scope="col"><h5>Tournament Name</h5></th>
+            <th scope="col"><h5>Date</h5></th>
+            <th scope="col"><h5>Details</h5></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              10th Korean Ambassador Open National Virtual Poomsae Taekwondo
+              Championship
+            </td>
+            <td>03rd Sep 2021 - 06th Sep 2021</td>
+            <td>
+
+                <ul class="nav-item dropdown px-2">
+                  <a class="nav-link text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Details
+                  </a>
+                  <li class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                      <div class="card card-body abc text-center">
+                        <h3>Event Venue</h3>
+                        <h5>Nepal Taekwondo Association, Satdobato, Lalitpur</h5>
+                        <br>
+                        <h3>Weight Category</h3>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th scope="col"><h5>Weight</h5></th>
+                              <th scope="col">
+                                <h5>Male Division</h5>
+                              </th>
+                              <th scope="col">
+                                <h5>Female Division</h5>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Fin</td>
+                              <td>Not Exceeding 54kg</td>
+                              <td>Not Excedding 46kg</td>
+                            </tr>
+                            <tr>
+                              <td>Fly</td>
+                              <td>Over 54kg & Exceeding 58kg</td>
+                              <td>Over 46kg & Excedding 53kg</td>
+                            </tr>
+                            <tr>
+                              <td>Bantam</td>
+                              <td>Over 58kg & Not Exceeding 63kg</td>
+                              <td>Over 49kg & Not Exceeding 53kg</td>
+                            </tr>
+                            <tr>
+                              <td>Feather</td>
+                              <td>Over 63kg & Not Exceeding 68kg</td>
+                              <td>Over 53kg & Not Exceeding 57kg</td>
+                            </tr>
+                            <tr>
+                              <td>Light</td>
+                              <td>Over 68kg & Not Exceeding 74kg</td>
+                              <td>Over 57kg & Not Exceeding 62kg</td>
+                            </tr>
+                            <tr>
+                              <td>Welter</td>
+                              <td>Over 74kg & Not Exceeding 80kg</td>
+                              <td>Over 62kg & Not Exceeding 67kg</td>
+                            </tr>
+                            <tr>
+                              <td>Middle</td>
+                              <td>Over 80kg & Not Exceeding 87kg</td>
+                              <td>Over 67kg & Not Exceeding 73kg</td>
+                            </tr>
+                            <tr>
+                              <td>Heavy</td>
+                              <td>Over 87Kg</td>
+                              <td>Over 73kg</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    
+                    </li>
+                  </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>FIRST NATIONAL MAYOR CUP TAEKWONDO CHAMPIONSHIP</td>
+            <td>01st May 2021 - 03rd May 2021</td>
+            <td>
+              <ul class="nav-item dropdown px-2">
+                <a class="nav-link text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Details
+                </a>
+                <li class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <div class="card card-body abc text-center">
+                      <h3>Event Venue</h3>
+                      <h5>Nepal Taekwondo Association, Satdobato, Lalitpur</h5>
+                      <br>
+                      <h3>Weight Category</h3>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th scope="col"><h5>Weight</h5></th>
+                            <th scope="col">
+                              <h5>Male Division</h5>
+                            </th>
+                            <th scope="col">
+                              <h5>Female Division</h5>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Fin</td>
+                            <td>Not Exceeding 54kg</td>
+                            <td>Not Excedding 46kg</td>
+                          </tr>
+                          <tr>
+                            <td>Fly</td>
+                            <td>Over 54kg & Exceeding 58kg</td>
+                            <td>Over 46kg & Excedding 53kg</td>
+                          </tr>
+                          <tr>
+                            <td>Bantam</td>
+                            <td>Over 58kg & Not Exceeding 63kg</td>
+                            <td>Over 49kg & Not Exceeding 53kg</td>
+                          </tr>
+                          <tr>
+                            <td>Feather</td>
+                            <td>Over 63kg & Not Exceeding 68kg</td>
+                            <td>Over 53kg & Not Exceeding 57kg</td>
+                          </tr>
+                          <tr>
+                            <td>Light</td>
+                            <td>Over 68kg & Not Exceeding 74kg</td>
+                            <td>Over 57kg & Not Exceeding 62kg</td>
+                          </tr>
+                          <tr>
+                            <td>Welter</td>
+                            <td>Over 74kg & Not Exceeding 80kg</td>
+                            <td>Over 62kg & Not Exceeding 67kg</td>
+                          </tr>
+                          <tr>
+                            <td>Middle</td>
+                            <td>Over 80kg & Not Exceeding 87kg</td>
+                            <td>Over 67kg & Not Exceeding 73kg</td>
+                          </tr>
+                          <tr>
+                            <td>Heavy</td>
+                            <td>Over 87Kg</td>
+                            <td>Over 73kg</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  
+                  </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>3rd Women’s National Open Taekwondo Championship- 2077</td>
+            <td>26th Mar 2021 - 27th Mar 2021</td>
+            <td>
+              <ul class="nav-item dropdown px-2">
+                <a class="nav-link text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Details
+                </a>
+                <li class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <div class="card card-body abc text-center">
+                      <h3>Event Venue</h3>
+                      <h5>Nepal Taekwondo Association, Satdobato, Lalitpur</h5>
+                      <br>
+                      <h3>Weight Category</h3>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th scope="col"><h5>Weight</h5></th>
+                            <th scope="col">
+                              <h5>Male Division</h5>
+                            </th>
+                            <th scope="col">
+                              <h5>Female Division</h5>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Fin</td>
+                            <td>Not Exceeding 54kg</td>
+                            <td>Not Excedding 46kg</td>
+                          </tr>
+                          <tr>
+                            <td>Fly</td>
+                            <td>Over 54kg & Exceeding 58kg</td>
+                            <td>Over 46kg & Excedding 53kg</td>
+                          </tr>
+                          <tr>
+                            <td>Bantam</td>
+                            <td>Over 58kg & Not Exceeding 63kg</td>
+                            <td>Over 49kg & Not Exceeding 53kg</td>
+                          </tr>
+                          <tr>
+                            <td>Feather</td>
+                            <td>Over 63kg & Not Exceeding 68kg</td>
+                            <td>Over 53kg & Not Exceeding 57kg</td>
+                          </tr>
+                          <tr>
+                            <td>Light</td>
+                            <td>Over 68kg & Not Exceeding 74kg</td>
+                            <td>Over 57kg & Not Exceeding 62kg</td>
+                          </tr>
+                          <tr>
+                            <td>Welter</td>
+                            <td>Over 74kg & Not Exceeding 80kg</td>
+                            <td>Over 62kg & Not Exceeding 67kg</td>
+                          </tr>
+                          <tr>
+                            <td>Middle</td>
+                            <td>Over 80kg & Not Exceeding 87kg</td>
+                            <td>Over 67kg & Not Exceeding 73kg</td>
+                          </tr>
+                          <tr>
+                            <td>Heavy</td>
+                            <td>Over 87Kg</td>
+                            <td>Over 73kg</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  
+                  </li>
+                </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  
+    <div class="imageLOGObg bg-warning">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h4><strong><br> We Are Affiliated With</strong></h4>
+        </div>
+
+        <div class="row img-fluid">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <img src="image/1.png" alt="" class="img-responsive1" />
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <img
+              src="image/WTA-removebg-preview.png"
+              alt=""
+              class="img-responsive2"
+            />
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <img
+              src="image/logo2-removebg-preview.png"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <img
+              src="image/logo3-removebg-preview.png"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer ">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mt-3">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h4>About US</h4>
+              </div>
+              <p>
+                The Chunidevi Taekwondo Association was founded in 1969 in
+                Lalitpur, Nepal by Siva Hari Budathoke, a former National Player
+                in the Country Nepal. Budathoke's motivation was to establish a
+                Taekwondo Dojo and to train students freely at the beginning.
+                Chunidevi Taekwondo Association is one of the largest taekwondo
+                organization in the Nepal. Also the one of the best training
+                taekwondo association in the country. Claming a student of over
+                1500. Chunidevi Taekwondo Dozang is located at Bhaisepati,
+                Lalitpur, Nepal.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title mt-3">
+                <h4>Contact Details</h4>
+              </div>
+              <div>
+                <p>ChuniDevi Taekwondo Association</p>
+                <p>Bhaisepati, Lalitpur, Nepal</p>
+                <p>Chunidevitkd123@gmail.com</p>
+                <p>9864578694</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyrights bg-black text-light">
+        <div class="container">
+          <div class="text-center mt-1">
+            <p class="footer-name">All Rights Reserved. &copy; 2022</p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
