@@ -9,98 +9,147 @@
     <link rel="stylesheet" href="">
 
     <title>ChuniDevi Taekwondo Association</title>
+    
+    <style>
+        .SIGNUPSIGNUP{
+            background-image: url('../image/TaekwondoLogin.jpg');
+            background-size: cover;
+        }
+        .signupBackground {
+            background-color: rgb(0, 0, 0);   
+            opacity: 0.9;
+            border-radius: 30px;
+            padding: auto;
+        }
+        .signupButton {
+            color: rgb(255, 255, 255);
+            padding: 16px 20px;
+            cursor: pointer;
+            width:30%;
+            border-radius: 30px;
+        }
 
+    </style>
 </head>
 
-<body>
-    <div class="container ">
-        <div>
-            <div class="text-center mt-5">
-                <h3 class="mb-3">Registration Form</h3>
+<body class="SIGNUPSIGNUP">
+    <div class="container mt-3">
+        <div class="signupBackground p-5">
+            <div class="text-center ">
+                <h3 class="mb-3 text-light">Registration Form</h3>
             </div>
             <div class="text-secondary text-center mb-5">
                 <h5>Please fill in this form to create an account.</h5>
             </div>
-            <div class="mb-2">
-                <div class="">
-                    <label class=""><h6 class="text-secondary">User Name</h6></label>
-                    <input type="text" class="form-control form-control-lg font-cener" placeholder="Enter Your User Name"/>
-                </div>
-            </div>
+            
             <div class="row">
-                <div class="col-6 mt-3">
+                <div class="col-2">
+                </div>
+
+                <div class="mb-2 col-md-4">
+                    <div class="">
+                        <label class=""><h6 class="text-light">User Name</h6></label>
+                        <input type="text" class="form-control form-control-lg font-cener" placeholder="Enter Your User Name"/>
+                    </div>
+                </div>
+                <div class="col-6">
+                </div>
+
+                <div class="col-2">
+
+                </div>
+                <div class="col-4 mt-3">
                     <div>
-                        <label class="form-label" for="emailAddress"><h6 class="text-secondary">Email</h6></label>
+                        <label class="form-label" for="emailAddress"><h6 class="text-light">Email</h6></label>
                         <input type="email" class="form-control form-control-lg" placeholder="Enter Your Email"/>
                     </div>
                 </div>
-                <div class="col-6 mt-3">
+                <div class="col-4 mt-3">
                     <div >
-                        <label class="form-label" for="contact"><h6 class="text-secondary">Phone Number</h6></label>
+                        <label class="form-label" for="contact"><h6 class="text-light">Phone Number</h6></label>
                         <input type="contact" class="form-control form-control-lg" placeholder="Enter Your Phonenumber"/>
                     </div>
                 </div>
+                <div class="col-2">
 
-                <div class="mt-3 col">
-                    <h6 class="text-secondary">Gender</h6>
-                    <div class="form-check form-check-inline">
-                    <input
-                    class="form-check-input"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="femaleGender"
-                    value="option1"
-                    checked
-                    />
-                    <label class="form-check-label" for="femaleGender">Female</label>
                 </div>
-    
-                <div class="form-check form-check-inline">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="maleGender"
-                    value="option2"
-                  />
-                  <label class="form-check-label" for="maleGender">Male</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="otherGender"
-                    value="option3"
-                  />
-                  <label class="form-check-label" for="otherGender">Other</label>
-                </div>
+                
+                    <div class="col-2">
 
-                <div class="mt-3 col">
-                    <div class="text-secondary mb-3">
-                        <h6>Pick Your Birth Date</h6>
                     </div>
-                    <input type="date" name="" id="">
-                </div>
+                    <div class="col-6 mt-3">
+                        <h6 class="text-light">Gender</h6>
+                        <div class="form-check form-check-inline">
+                        <input
+                        class="form-check-input"
+                        type="radio"
+                        name="inlineRadioOptions"
+                        id="femaleGender"
+                        value="option1"
+                        checked
+                        />
+                        <label class="form-check-label text-light" for="femaleGender">Female</label>
+                        <div class="form-check form-check-inline">
+                            <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="maleGender"
+                            value="option2"
+                            />
+                            <label class="form-check-label text-light" for="maleGender">Male</label>
+                        </div>
+            
+                        <div class="form-check form-check-inline">
+                            <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="otherGender"
+                            value="option3"
+                            />
+                            <label class="form-check-label text-light" for="otherGender">Other</label>
+                        </div>
+                    </div>
 
-                <div class="col-6 mt-3 mb-2">
-                    <div class="form">
-                      <label class="form-control-label" for="password"><h6 class="text-secondary">Password</h6></label>
-                      <input type="password" class="form-control form-control-lg" placeholder="Enter New Password"/>
+                    <div class="mt-3 col-4">
+                        <div class="text-light mb-3">
+                            <h6>Pick Your Birth Date</h6>
+                        </div>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="col-2">
+
                     </div>
                 </div>
                 
-                <div class="col-6 mt-3 mb-2">
-                    <div class="form">
-                      <label class="form-control-label" for="password"><h6 class="text-secondary">Re-write Password</h6></label>
-                      <input type="password" class="form-control form-control-lg" placeholder="Re-Write Password"/>
+
+                <div class="row">
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 mt-3 mb-2">
+                        <div class="form">
+                            <label class="form-control-label" for="password"><h6 class="text-light">Password</h6></label>
+                            <input type="password" class="form-control form-control-lg" placeholder="Enter New Password"/>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4 mt-3 mb-2">
+                        <div class="form">
+                            <label class="form-control-label" for="password"><h6 class="text-light">Re-write Password</h6></label>
+                            <input type="password" class="form-control form-control-lg" placeholder="Re-Write Password"/>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                    
                     </div>
                 </div>
-
+                
             </div>
-            <div class="text-center mt-3">
-                <button type="button" class="btn btn-primary"> Sign Up</button>
+            
+            <div class="text-center mt-4">
+                <button type="button" class="btn signupButton bg-danger"> Sign Up</button>
             </div>
             
         </div>
